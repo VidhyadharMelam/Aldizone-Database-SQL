@@ -74,7 +74,7 @@ CREATE TABLE OrderPaymentMethods (
 );
 
 -- Create the OrderItem table
-CREATE TABLE OrderItem (
+CREATE TABLE OrderItems (
     OrderItemID INT,
     OrderID INT,
     ProductID INT,
