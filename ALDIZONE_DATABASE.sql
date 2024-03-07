@@ -98,7 +98,7 @@ CREATE TABLE GuestOrders (
 -- Create the Store table
 CREATE TABLE Store (
     StoreID INT
-    CustomerID,
+    CustomerID INT,
     ProductID INT,
     Location VARCHAR(255) NOT NULL,
     StockInStore INT,
